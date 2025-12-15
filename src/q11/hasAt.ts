@@ -1,7 +1,7 @@
 const myInput = process.argv[2];
 const hasAt = "@";
 
-if(hasAt){
+if(myInput.includes("@")){
     console.log("Has @");
 }
 else {
