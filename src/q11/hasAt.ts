@@ -6,5 +6,5 @@ if(myInput.includes("@")){
 }
 else {
     console.log("No @");
-    process.exit();
+    process.exit(1);
 }
